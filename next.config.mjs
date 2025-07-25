@@ -6,11 +6,9 @@ const nextConfig = {
   compiler:{
       removeConsole: true,
   },
-  reactStrictMode: true,
-  // Do not enable experimental options unless you're sure
-  experimental: {
-    // optional, not required for now
-  },
+  output: 'export', // <== this is required
+  trailingSlash: true, // optional
+
   images: {
     remotePatterns: [
       {
