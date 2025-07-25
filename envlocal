@@ -5,4 +5,4 @@ NEXT_PUBILC_GLOBAL_AUTH_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6I
 RAZORPAY_API_KEY=rzp_live_10Qu2RC5tSoQbg
 RAZORPAY_API_SECRET=
 NEXTAUTH_SECRET=lK0Wyan05+EWD1csL8uXL609J1+0ciw3qbEJckTl7B4=
-NEXTAUTH_URL=https://ttt-mobile-app-git-main-krishan-govinds-projects.vercel.app/
+NEXTAUTH_URL=https://ttt-mobile-app-git-main-krishan-govinds-projects.vercel.app
