@@ -49,15 +49,4 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   )
 }
-App.getInitialProps = async () => {
-  try {
-    const response = await getMenuRoutes();
-    if (response.status === 200) {
-      return { pageProps: { menuresponse: { success: true, response: response.data } } };
-    } else {
-      return { pageProps: { menuresponse: { error: true, msg: "Some unexpected error occurred, Pls try again later." } } };
-    }
-  } catch (error:any) {
-    return { pageProps: { menuresponse: { error: true, msg: error.message } } };
-  }
-}
+
